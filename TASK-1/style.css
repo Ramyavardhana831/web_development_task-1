@@ -1,0 +1,250 @@
+/* Global style resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar brand style */
+.navbar-brand {
+    margin-left: 30px;
+    font-size: 28px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>; /* Replace <weight> with desired font weight */
+    font-style: normal;
+}
+
+/* Menu items style */
+.menu-items {
+    display: flex;
+    text-align: right;
+    margin-top: 30px;
+}
+
+/* Individual menu item style */
+.menu-items li {
+    list-style: none;
+    border-style: outset;
+    height: 30px;
+    width: 70px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    margin-right: 30px;
+    background-color: beige;
+    border-radius: 20%;
+}
+
+/* Navbar container style */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+/* Navbar style */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    height: 80px;
+    background-color: rgb(240, 188, 254);
+}
+
+/* Body style */
+body {
+    height: 120vh;
+}
+
+/* Home section style */
+.home {
+    margin-top: 100px;
+    display: flex;
+}
+
+/* Picture container style */
+.pic {
+    margin-left: 20vh;
+}
+
+/* Profile image style */
+.profile {
+    border-radius: 50%;
+    height: 300px;
+}
+
+/* About Me section style */
+.me {
+    margin-left: 10vh;
+    margin-top: 60px;
+}
+
+/* About Me text style */
+.info {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>; /* Replace <weight> with desired font weight */
+    font-style: normal;
+}
+
+/* Container for all skills */
+.all_skills {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+/* Individual skill item style */
+.skill {
+    border: 1px solid gray;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    box-shadow: 0 3px 10px gray;
+}
+
+/* Skill item image style */
+.skill img {
+    height: 60px;
+    align-items: center;
+}
+
+/* Skill item heading style */
+.skills h6 {
+    align-items: center;
+    font-size: 20px;
+    margin-block-start: 8px;
+    margin-block-end: 5px;
+    font-weight: bold;
+}
+
+/* Skill item paragraph style */
+.skills p {
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+/* Utility class for centering elements */
+.flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Skills section heading style */
+.sk {
+    margin-left: 30px;
+}
+
+/* Contact section heading style */
+.con {
+    margin-left: 95vh;
+    margin-bottom: 30px;
+}
+
+/* Container for contact buttons */
+.icons {
+    margin-left: 70vh;
+}
+
+/* Style for the first contact button (WhatsApp) */
+.btn1 {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+}
+
+.btn1 {
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, #44ff00 0%, #257204 100%);
+    box-shadow: 0 20px 30px -6px rgb(108, 187, 89);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+
+.btn1:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+.btn1:active {
+    opacity: 0.5;
+}
+
+/* Style for the second contact button (Email) */
+.btn2 {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+}
+
+.btn2 {
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, #f52e2e 0%, #e9a0a0 100%);
+    box-shadow: 0 20px 30px -6px rgb(167, 107, 90);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+
+.btn2:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+.btn2:active {
+    opacity: 0.5;
+}
+
+/* Style for the third contact button (Instagram) */
+.btn3 {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+}
+
+.btn3 {
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, #fa0a76 0%, #ef65da 100%);
+    box-shadow: 0 20px 30px -6px rgb(210, 129, 168);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+
+.btn3:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+.btn3:active {
+    opacity: 0.5;
+}
+
+/* General heading style */
+h2 {
+    font-size: 30px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
